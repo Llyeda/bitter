@@ -1,0 +1,183 @@
+<html>
+<head>
+    <title>arkadaşlar merhaba</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    <!-- giriş ekranı: #girisekrani -->
+    <div data-role="page" id="girisekrani" data-theme="a" onclick='window.location.href="#mainekran"'>
+        <h3 align="left"><font color="#D8B5FB">slm çukulatam</font></h3>
+        <h3 align="left"><font color="#D8B5FB">seni çok seviyorum</font></h3>
+        <h3 align="left"><font color="#D8B5FB">doğum günün kutlu olsun</font></h3>
+        <center><img src="giris.png" height="500px" width="500px"></center>
+        <h5 align="center"><font color="#D8B5FB">bir sonraki ekran için ekranın herhangi bir yerine dokunabilirsin </font></h5>
+    </div>
+    
+    <div data-role="page" id="mainekran" data-theme="a">
+        <h2 align="center"><font color="#D8B5FB">arkadaşlar merhaba</font></h2>
+        <h3 align="center"><font color="#D8B5FB">her şeyde bu sözü kullandığımı biliyorum söylemene gerek yok</font></h3>
+        <center><img src="nabonbitterim.png" height="78px" width="437px"></center>
+        <h5></h5>
+        <center><img src="bitterhammett.png" height="78px" width="437px"></center>
+        <h5 align="center"><font color="#D8B5FB">playlistler muhtemelen sen bunu okuduğunda herkese açık durumdadır</font></h5>
+        <center><a href="#fotografgalerisi"><img src="fotografgalerisi.png" height="94px" width="426px"></a></center>
+        <h5></h5>
+        <center><a href="#uygulamanınanlamveönemi"><img src="uygulamaninanlamveonemi.png" height="94px" width="426px" href="#uygulamanınanlamveönemi"></a></center>
+        <h5 align="center"><font color="#D8B5FB">ve bunu arada güncellemeyi düşünüyorum</font></h5>
+        <h5 align="center"><font color="#D8B5FB">bir şey olursa silinirse falan benden tekrar iste olur mu</font></h5>
+        <h5 align="center"><font color="#D8B5FB">playlistleri de isteklerine göre şekillendiririm</font></h5>
+    </div>
+    
+    <div data-role="page" id="uygulamanınanlamveönemi" data-theme="a">
+    <h2 align="center"><font color="#cc99ff">genel olarak süslü şeyler yazmayı ve kendimi ifade etmeyi pek beceremiyorum bildiğin üzere ama umarım sana düşüncelerimi hissettirebilirim</font></h2>
+    <center><img src="VICIKALERT.png" height="51" width="328"></center>
+        <p align="center">bu yazıyı yazarken aklımda hiçbir şey yok her şey bir anda çıkıverecek</p> 
+        <p align="center">eğer doğum gününse doğum günün kutlu olsun çünkü aslında onun için planladım</p>
+        <p align="center">sen benim hayatımda en değerli yere sahipsin</p>
+        <p align="center">ve benim için sen dünyanın en güzel insanısın</p>
+        <p align="center">seni her şeyden fazla seviyorum ve sana her şeyden fazla değer veriyorum</p>
+        <p align="center">umarım sana bunu fazlasıyla hissettirebiliyorumdur</p>
+        <p align="center">her şeyin senin için güzel olmasını diliyorum ve onun için de çabalıyorum</p> 
+        <p align="center">seninle geçirdiğim her saniyem benim için aşırı değerli</p>
+        <p align="center">bunu yaparken de amacım sana benim için ne kadar değerli olduğunu hissettirebilmek</p>
+        <p align="center">yaptığımda bir şey olmasa bile sadece manevi olarak bir şeyler yapmaya çalıştım işte</p>
+        <p align="center">benimle veya bensiz geçirdiğin herhangi bir an seni üzecek seni kıracak ne yaptıysam özür dilerim</p>
+        <p align="center">hayat senin için hep güzel olsun</p>
+        <p align="center">hayatının her anında mutlu ol</p>
+        <p align="center">hiç kimsenin seni üzmesine izin verme</p>
+        <p align="center">her zaman hedeflerine ulaşabilecek kapasitede olduğunu unutma</p>
+        <p align="center">eğer sen istersen herhangi bir zamanda herhangi bir şeyi başarabilirsin</p>
+        <p align="center">tekrardan</p>
+        <p align="center">sen benim için her şeyden fazla değerlisin</p>
+        <p align="center">her yönünle dünyanın en güzel insanısın</p>
+        <p align="center">seni çok ama çok seviyorum</p>
+        <p align="center">bunları asla unutma</p>
+        <p align="center">doğum günün kutlu olsun</p>
+    </div>
+    
+    <!-- fotograflar -->
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 33.3%; /* IE10 */
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+        /* Responsive layout - makes a three column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+        
+
+
+      
+    </style>
+
+    <div data-role="page" id="fotografgalerisi" data-theme="a">
+        <body>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="1.png" style="width:33%">
+    <img src="2.png" style="width:33%">
+    <img src="3.png" style="width:33%">
+    <img src="4.png" style="width:33%">
+    <img src="5.JPG" style="width:33%">
+    <img src="6.jpg" style="width:33%">
+    <img src="7.jpg" style="width:33%">
+    <img src="8.jpg" style="width:33%">
+      <img src="32.jpg" style="width:33%">
+      <img src="35.jpg" style="width:33%">
+      <img src="37.jpeg" style="width:33%">
+      
+    
+  </div>
+  <div class="column">
+    <img src="11.jpg" style="width:33%">
+    <img src="12.JPG" style="width:33%">
+    <img src="13.jpg" style="width:33%">
+    <img src="14.jpg" style="width:33%">
+    <img src="15.jpg" style="width:33%">
+    <img src="16.jpg" style="width:33%">
+    <img src="17.jpg" style="width:33%">
+    <img src="18.jpg" style="width:33%">
+    <img src="19.jpg" style="width:33%">
+    <img src="20.jpg" style="width:33%">
+      <img src="9.jpg" style="width:33%">
+      <img src="31.jpg" style="width:33%">
+      <img src="34.jpg" style="width:33%">
+      <img src="36.jpeg" style="width:33%">
+      
+  </div>  
+  <div class="column">
+    <img src="21.jpg" style="width:33%">
+    <img src="22.JPG" style="width:33%">
+    <img src="23.JPG" style="width:33%">
+    <img src="24.jpg" style="width:33%">
+    <img src="25.jpg" style="width:33%">
+    <img src="26.jpg" style="width:33%">
+    <img src="27.jpg" style="width:33%">
+    <img src="28.JPG" style="width:33%">
+    <img src="29.jpg" style="width:33%">
+    <img src="30.JPG" style="width:33%">
+    <img src="10.jpg" style="width:33%">
+      <img src="33.jpg" style="width:33%">
+      <img src="38.jpeg" style="width:33%">
+      
+  </div>
+</div>
+                
+
+</body>
+        
+    </div>
+    </body>
+</html>
+        
+        
